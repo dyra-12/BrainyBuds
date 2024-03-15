@@ -615,3 +615,87 @@ section{
 .hidden {
   display: none;
 }
+
+.Lectures .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.Lectures .box-container .box{
+  background: var(--white);
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  border-radius: 2rem;
+}
+
+.Lectures .box-container .box img{
+  height: 30rem;
+}
+
+.Lectures .box-container .box h3{
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.Lectures .box-container .box p{
+  font-size: 1.7rem;
+  color: var(--light-color);
+  margin-bottom: 1rem;
+}
+
+.Lectures .box-container .box .share i{
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  background: none;
+  color: var(--pink);
+  border: .1rem solid var(--pink);
+  margin-left: .5rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.Lectures .box-container .box .share i:hover{
+  color: var(--white);
+  border: .1rem solid var(--orange);
+  background: var(--orange);
+}
+
+.classhead {
+  text-align: center;
+  font-size: 3vh;
+  margin-bottom: 50px;
+}
+
+.textbooks .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.textbooks .box-container .box{
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  border-radius: 2rem;
+  outline: .1rem solid rgba(0,0,0,.1);
+  outline-offset: -1rem;
+}
+
+.textbooks .box-container .box img{
+  height: 30rem;
+}
+
+.textbooks .box-container .box:hover img{
+  transform: scale(1.1);
+}
+
+.textbooks .box-container .box h3{
+  font-size: 2.2rem;
+  padding: 2rem 0;
+  color: var(--black);
+}
