@@ -8,7 +8,7 @@
 <p>Create an educational software platform tailored to the learning needs of rural students. The main goal is to offer an easy-to-use and engaging learning space that adapts to the varying educational levels and needs of young students in these age groups.
 </p>
 
-<h3> Use Cases </h3>:
+<h3> Use Cases </h3>
 <ul>
   <li>Use Case 1: A class 1 student, whose primary language is Marathi, uses the platform to take math quizzes in Marathi. This helps them practice and understand math concepts in their preferred language.
 </li>
