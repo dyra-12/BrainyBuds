@@ -1,0 +1,45 @@
+/* src/styles1.css */
+.addition-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .addition-game-box {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+
+  }
+
+  .addition-game-box h1{
+    font-size: 35px;
+  }
+
+  .addition-game-box p{
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+  .addition-input {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  .addition-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: small;
+    margin-left: 20px;
+  }
+  
+ 
